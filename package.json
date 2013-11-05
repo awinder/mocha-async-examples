@@ -1,0 +1,12 @@
+{
+  "name": "mocha-async-examples",
+  "description": "Examples of asynchronous tests using express, mocha, and chai",
+  "version": "0.0.1",
+  "private": true,
+  "dependencies": {
+    "express": "3.x"
+  },
+  "devDependencies": {
+    "chai": "~1.8.1"
+  }
+}
