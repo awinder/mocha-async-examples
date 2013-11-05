@@ -1,6 +1,6 @@
 var expect = require('chai').expect
-  , res = require(__dirname + '/mocks/response')
-  , testing = require(__dirname + '/../endpoints/testing/controller');
+  , res = require('./mocks/response')
+  , testing = require('../endpoints/testing/controller');
 
 describe('Testing', function(){
   it('Should send an object with a testing key', function(done){
