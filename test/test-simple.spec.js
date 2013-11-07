@@ -1,5 +1,5 @@
 var expect = require('chai').expect
-  , res = require('./mocks/response')
+  , res = require('./mocks/response')()
   , testing = require('../endpoints/testing/controller');
 
 describe('Testing', function(){

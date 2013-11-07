@@ -13,4 +13,6 @@ res.prototype.send = function(payload, code) {
   });
 }
 
-module.exports = new res();
+module.exports = function() {
+  return new res();
+};
